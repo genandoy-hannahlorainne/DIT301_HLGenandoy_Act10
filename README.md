@@ -8,8 +8,6 @@
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 
-*Making productivity beautiful, one task at a time* ✨
-
 </div>
 
 ---
@@ -68,13 +66,10 @@ No complicated features. No distractions. Just you and your tasks.
 ## 🚀 Quick Start
 
 ```bash
-# Navigate to app folder
 cd CrossPlatformToDoListApp/todo-app
 
-# Install dependencies
 npm install
 
-# Start the app
 npm start
 ```
 
@@ -113,7 +108,7 @@ Then press:
 
 ---
 
-## � Project Structure
+## Project Structure
 
 ```
 CrossPlatformToDoListApp/
@@ -145,17 +140,3 @@ CrossPlatformToDoListApp/
 🔗 Repository: DIT301_HLGenandoy_Act10
 
 ---
-
-## 📄 License
-
-MIT License - feel free to use this project!
-
----
-
-<div align="center">
-
-### ⭐ Star this repo if you like it!
-
-**Made with ❤️ using React Native**
-
-</div>

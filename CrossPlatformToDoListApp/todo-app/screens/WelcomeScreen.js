@@ -34,7 +34,7 @@ export default function WelcomeScreen({ navigation }) {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#ac9ace" />
+      <StatusBar barStyle="light-content" backgroundColor="#9f82ce" />
       
       <View style={styles.content}>
         <Animated.View 
@@ -106,7 +106,7 @@ export default function WelcomeScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ac9ace',
+    backgroundColor: '#9f82ce',
   },
   content: {
     flex: 1,
@@ -196,12 +196,12 @@ const styles = StyleSheet.create({
   getStartedText: {
     fontSize: width * 0.045,
     fontWeight: 'bold',
-    color: '#ac9ace',
+    color: '#9f82ce',
     marginRight: width * 0.02,
   },
   arrow: {
     fontSize: width * 0.05,
-    color: '#ac9ace',
+    color: '#9f82ce',
     fontWeight: 'bold',
   },
   footerText: {

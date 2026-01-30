@@ -76,7 +76,7 @@ export default function TodoListScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#ac9ace" />
+      <StatusBar barStyle="light-content" backgroundColor="#9f82ce" />
       
       <View style={styles.header}>
         <Text style={styles.title}>My Tasks</Text>
@@ -188,13 +188,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#f8f7fc',
   },
   header: {
-    backgroundColor: '#ac9ace',
+    backgroundColor: '#9f82ce',
     paddingVertical: height * 0.03,
     paddingHorizontal: width * 0.05,
     paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight + 15 : 25,
     borderBottomLeftRadius: 25,
     borderBottomRightRadius: 25,
-    shadowColor: '#ac9ace',
+    shadowColor: '#9f82ce',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.3,
     shadowRadius: 8,
@@ -261,13 +261,13 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   addButton: {
-    backgroundColor: '#ac9ace',
+    backgroundColor: '#9f82ce',
     width: width * 0.14,
     height: width * 0.14,
     borderRadius: width * 0.07,
     justifyContent: 'center',
     alignItems: 'center',
-    shadowColor: '#ac9ace',
+    shadowColor: '#9f82ce',
     shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.4,
     shadowRadius: 5,
@@ -307,12 +307,12 @@ const styles = StyleSheet.create({
     height: width * 0.06,
     borderRadius: width * 0.03,
     borderWidth: 2,
-    borderColor: '#ac9ace',
+    borderColor: '#9f82ce',
     justifyContent: 'center',
     alignItems: 'center',
   },
   checkboxChecked: {
-    backgroundColor: '#ac9ace',
+    backgroundColor: '#9f82ce',
   },
   checkmark: {
     color: '#fff',
@@ -403,7 +403,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     marginBottom: height * 0.025,
     borderLeftWidth: 3,
-    borderLeftColor: '#ac9ace',
+    borderLeftColor: '#9f82ce',
   },
   taskPreviewText: {
     fontSize: width * 0.038,
